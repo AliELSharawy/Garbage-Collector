@@ -1,5 +1,5 @@
 # Garbage Collectors
-Implementation of Four garbage collectors(Mark & Sweep GC, Mark & Compact GC, Copy GC, G1 GC)\
+Implementation of Four garbage collectors(Mark & Sweep GC, Mark & Compact GC, Copy GC, G1 GC)
 
 The input is:
   - Total size of the heap in bytes (for G1 GC)
