@@ -15,4 +15,4 @@ The input is:
       - parent-identifier: a unique identifier for the parent object
       - child-identifier: a unique identifier for the child object referenced by the parent
 The output is:
-  - File new-heap.csv: this is a comma separated file with the same structure of the heap.csv showing the new memory layout after running the garbage collector
+  - File new-heap.csv: this is a comma separated file with the same structure of the heap.csv showing the new memory layout after running the garbage collector.
