@@ -8,7 +8,7 @@
   
 Implementation of Four garbage collectors(Mark & Sweep GC, Mark & Compact GC, Copy GC, G1 GC)
 
-## The input is:
+## Input:
   - Total size of the heap in bytes (for G1 GC)
   - File heap.csv : this is a comma separated file with three columns. Each line represents
       the information about a single allocated object whether this object may be used or not used.
@@ -21,5 +21,5 @@ Implementation of Four garbage collectors(Mark & Sweep GC, Mark & Compact GC, Co
   - File pointers.csv: this file stores the dependencies between different objects. It is a comma separated file with two columns
       - parent-identifier: a unique identifier for the parent object
       - child-identifier: a unique identifier for the child object referenced by the parent
-## The output is:
+## Output:
   - File new-heap.csv: this is a comma separated file with the same structure of the heap.csv showing the new memory layout after running the garbage collector.
