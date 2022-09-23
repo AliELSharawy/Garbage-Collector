@@ -1,10 +1,10 @@
 # Garbage Collectors
 
 ## Team Members:
-  Ali Hassan ElSharawy\
-  Amr Essam\
-  Mohamed Elkotb\
-  Mohamed Khalid
+    Ali Hassan ElSharawy
+    Amr Essam
+    Mohamed Elkotb
+    Mohamed Khalid
   
 Implementation of Four garbage collectors(Mark & Sweep GC, Mark & Compact GC, Copy GC, G1 GC)
 
