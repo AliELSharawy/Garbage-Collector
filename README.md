@@ -11,7 +11,7 @@ Implementation of Four garbage collectors(Mark & Sweep GC, Mark & Compact GC, Co
 ## The input is:
   - Total size of the heap in bytes (for G1 GC)
   - File heap.csv : this is a comma separated file with three columns. Each line represents
-      the information about a single allocated object. This object may be used or not used.
+      the information about a single allocated object whether this object may be used or not used.
       - object-identifier: a unique 6 digits identifier of the allocated objects.
       - memory-start: the index of the first byte in heap memory representing this object
       - memory-end: the index of the last byte in heap memory representing this object
